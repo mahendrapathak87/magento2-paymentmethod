@@ -3,7 +3,14 @@
     <default>
         <payment>
             <pronko_authorizenet>
-                <title>Authorize.NET Payment</title>
+                <title>Pronko Authorize.NET Payment</title>
+                <model>PronkoAuthorizenetFacade</model>
+                <active>1</active>
+                <is_geteway>1</is_geteway>
+                <can_use_checkout>1</can_use_checkout>
+                <can_authorize>1</can_authorize>
+                <can_capture>1</can_capture>
+                <cctypes>VI,MC</cctypes>
             </pronko_authorizenet>
         </payment>
     </default>
